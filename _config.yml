@@ -1,0 +1,22 @@
+---
+title: Try FreeAgent
+timezone: UTC
+
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+
+baseurl: "/"
+
+sass:
+  sass_dir: _scss
+  style: compressed
+
+include:
+- _pages
+
+url: "/"
