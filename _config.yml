@@ -10,8 +10,6 @@ collections:
     title: Uploads
     output: true
 
-baseurl: "/"
-
 sass:
   sass_dir: _scss
   style: compressed
@@ -19,4 +17,5 @@ sass:
 include:
 - _pages
 
-url: "https://kscottfa.github.io/tryfreeagent"
+url: "https://kscottfa.github.io"
+baseurl: "/tryfreeagent"
