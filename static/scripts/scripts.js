@@ -14,6 +14,6 @@ if (navigator.userAgent.match(/iPhone/i)) {
   // do desktop stuff
   console.log("Something else");
   document.body.classList.add("other");
-  dynamicContent.innerHTML = `<img src="../static/images/qr.png" alt=" "/> <br /> <p>Scan this QR code with your phone to get started!</p>`;
+  dynamicContent.innerHTML = `<img src="{{ site.baseurl }}/static/images/qr.png" alt=" "/> <br /> <p>Scan this QR code with your phone to get started!</p>`;
 }
  
